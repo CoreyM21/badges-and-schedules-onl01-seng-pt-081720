@@ -25,4 +25,6 @@ def badge_maker(name)
    (attendees).each_with_index {|attendees, index| room << "Hello, #{attendees}! You'll be assigned to room #{index + 1}!"}
    room
   end 
+  
+  
    
