@@ -26,5 +26,10 @@ def badge_maker(name)
    room
   end 
   
+  #write a method called printer
   
+  def printer
+    badge =[]
+    
+    
    
