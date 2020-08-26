@@ -9,9 +9,9 @@ def badge_maker(name)
 #take an array of names as an argument and returns an array of badge messages
  
  def batch_badge_creator(attendees)
-   badge_message = []
-   attendees.each {|attendees| badge_messgage << badge_maker(attendees)}
-   badge_messgage
+   badges = []
+   attendees.each {|attendees| badges << badge_maker(attendees)}
+   badges
  end
  
  #write a method called assign_rooms
