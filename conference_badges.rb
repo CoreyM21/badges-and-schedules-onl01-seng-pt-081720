@@ -16,4 +16,5 @@ def badge_maker(name)
  
  #write a method called assign_rooms
  
- 
+ def assign_rooms(attendees)
+   rooms = []
