@@ -29,7 +29,8 @@ def badge_maker(name)
   #write a method called printer
   
   def printer
-    badge =[]
-    
+    batch_badge_creator(attendees)
+    assign_rooms(attendees)
+  end  
     
    
