@@ -15,6 +15,10 @@ def badge_maker(name)
  end
  
  #write a method called assign_rooms
+ #takes list of speakers (attendees) and assigns each speaker a room 
+ #each room has 1 speaker
+ #1-7 rooms 
+ 
  
  def assign_rooms(attendees)
    rooms = []
