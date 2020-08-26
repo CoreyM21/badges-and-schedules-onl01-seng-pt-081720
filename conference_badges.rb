@@ -8,8 +8,8 @@ def badge_maker(name)
 #write a method called Batch_badge_creator
 #take an array of names as an argument and returns an array of badge messages
  
- def batch_badge_creator(names)
+ def batch_badge_creator(attendees)
    badges = []
-   names.each {|name| bagdes << badge_maker(names)}
+   attendees.each {|attendees| bagdes << badge_maker(names)}
    badges
  end
