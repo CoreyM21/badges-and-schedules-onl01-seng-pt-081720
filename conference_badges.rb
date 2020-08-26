@@ -4,3 +4,12 @@
 def badge_maker(name)
  "Hello, my name is #{name}."
  end
+
+#write a method called Batch_badge_creator
+#take an array of names as an argument and returns an array of badge messages
+ 
+ def batch_badge_creator(names)
+   badges = []
+   names.each do {|name| bagdes << badge_maker(names)}
+   badges
+ end
