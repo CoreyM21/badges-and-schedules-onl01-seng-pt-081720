@@ -27,10 +27,11 @@ def badge_maker(name)
   end 
   
   #write a method called printer
+  #outputs first the results of #batch_badge_creator
+  #outputs second #assign_rooms
   
   def printer(attendees)
-    batch_badge_creator(attendees)
-    assign_rooms(attendees)
+    puts 
   end  
     
    
