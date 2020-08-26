@@ -21,5 +21,8 @@ def badge_maker(name)
  
  
  def assign_rooms(attendees)
-   (attendees).each_with_index {|item, index| attendees
+   room = []
+   (attendees).each_with_index {|attendees, index| room << "Hello, #{attendees}! You'll be assigned to room #{index}!"}
+   room
+  end 
    
