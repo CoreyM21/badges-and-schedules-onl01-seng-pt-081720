@@ -32,10 +32,10 @@ def badge_maker(name)
   
   def printer(attendees)
     batch_badge_creator(attendees).each do |first|
-    first  
+    puts first  
     end
     assign_rooms(attendees).each do |second|
-    second  
+    puts second  
     end
   end  
     
