@@ -32,7 +32,7 @@ def badge_maker(name)
   
   def printer(attendees)
     final = []
-    attendees.each {|attendees| final << batch_badge_creator(attendees)}
+    attendees.each do {|attendees| final << batch_badge_creator(attendees)}
     final
   end  
     
