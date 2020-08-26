@@ -22,7 +22,7 @@ def badge_maker(name)
  
  def assign_rooms(attendees)
    room = []
-   (attendees).each_with_index {|attendees, index| room << "Hello, #{attendees}! You'll be assigned to room #{index}!"}
+   (attendees).each_with_index {|attendees, index+1| room << "Hello, #{attendees}! You'll be assigned to room #{index}!"}
    room
   end 
    
