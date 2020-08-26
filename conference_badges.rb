@@ -30,7 +30,7 @@ def badge_maker(name)
   #outputs first the results of #batch_badge_creator
   #outputs second #assign_rooms
   
-  def printer(attendees)
+  def printer
     attendees.each do |attendees|
     batch_badge_creator(attendees)
     assign_rooms(attendees)
